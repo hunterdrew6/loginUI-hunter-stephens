@@ -1,0 +1,78 @@
+body{
+    background-image: url(http://doorofperception.com/wp-content/uploads/alex21.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    
+}
+.card{
+    
+    width: 245px;
+    border: 10px solid rgb(230, 203, 53);
+    border-radius: 12px;
+    margin: 10px 5px;
+    padding: 4px;
+    min-width: 30%;
+    min-height: 20%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 8px 8px 5px rgb(255, 253, 225);
+    
+}
+#sign-in{
+    background:rgba(129, 105, 238, 0.8)
+}
+#sign{
+    color:white
+   
+    }
+p{
+    text-align:center;
+    font-family: 'Arial', sans-serif;
+}
+#welcome{
+    color:white;
+    font-size: 22px;
+    text-shadow: 4px 4px 5px rgb(150, 127, 0);
+
+}
+h1{
+    text-align:center;
+    font-family: "Garamond", serif;
+}
+#button{
+    background-color:rgb(129, 105, 238, 0.8);
+    color:rgb(230, 203, 53);
+   
+}
+#thanks{
+    color:white;
+    text-shadow: 4px 4px 5px rgb(150, 127, 0);
+
+}
+#email{
+    text-align:center;
+}
+#pass{
+    text-align:center;
+}
+/* I left this part of code in. I was using padding to center my input boxes but i realized that text align fixed my issue. Just wanted to leave this in here to show my work 
+#email{
+    padding-left:90px;
+    padding-right:30px;
+}
+#pass{
+    padding-left:90px;
+    padding-right:30px;
+} */
+#butt1{
+    text-align:center
+}
